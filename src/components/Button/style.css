@@ -1,0 +1,20 @@
+button{
+    height: 48px;
+    width: 100%;
+
+    border: 2px solid #E34981;
+    border-radius: 8px;
+
+    background-color: #E34981;
+    color: #F8F9FA;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:focus{
+    background-color: #FD377E;
+    color: #FFFFFF;
+}
+
+

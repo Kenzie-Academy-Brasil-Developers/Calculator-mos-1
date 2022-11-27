@@ -1,0 +1,63 @@
+.list-card{
+    box-sizing: border-box;
+
+    max-width: 562px;
+    width: 100%;
+    height: 87px;
+
+    background-color: #F8F9FA;
+
+    border-radius: 4px;
+
+    display: flex;
+
+    padding:8px 18px;
+
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.boder-left-start{
+    border-left: 2px solid #03B898;
+}
+.boder-left-exit{
+    border-left: 2px solid #E9ECEF;
+}
+
+.list-card>div h2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.list-card>div p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #343A40;
+}
+
+.list-card > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.div-img{
+    height: 22px;
+    width: 22px;
+
+    background-image: url('../../img/trash-1.svg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #E9ECEF;
+    border-radius: 2px;
+    border: none;
+}
+.div-img:hover{
+    background-image: url('../../img/trash-2.svg');
+    background-color: #343A40
+}
+
